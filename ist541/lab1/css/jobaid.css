@@ -57,3 +57,13 @@ img {
   padding: 8px;
 }
 
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+	}
+
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
