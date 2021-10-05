@@ -9,14 +9,14 @@
 
 <script>
    $(function(){
-     $("#1").mouseenter(function(){
-          $("#2").css("display","inline");
-		  $("#1").css("display","none");
+     $("#image1").mouseenter(function(){
+          $("#image2").css("display","inline");
+		  $("#image1").css("display","none");
 		  $("#answer").html("<h2>It is cellar lighting.</h2>");
    });
-   $("#1").mouseleave(function(){
-        $("#1").css("display","inline");
-        $("#2").css("display","none");
+   $("#image1").mouseleave(function(){
+        $("#image1").css("display","inline");
+        $("#image2").css("display","none");
         $("#answer").html("");
    });
 
@@ -28,12 +28,12 @@
 <body>
 <div id="wrapper">
 	
-    <h1>What is the feature of Caravaggio's painting?</h1>
+    <h1>What is the feature of Caravaggio's work?</h1>
 	<a href="question1.html"> Go to Question 1 </a>
 	<a href="question2.html"> Go to Question 2 </a>
   <h2 id="hint">Hint: Hover over the image below to find out!</h2>
-<img id="1"   src="img/1.jpg"/>
-     <img id="2" src="img/2.jpg"/>
+  <img src="img/1.jpg" width="413" height="337" id="image1"/>
+  <img src="img/2.jpg" width="396" height="336" id="image2"/>
   <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
  </div> <!-- closing  “wrapper” -->
 

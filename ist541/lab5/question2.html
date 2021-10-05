@@ -11,18 +11,18 @@
  
        $("#option1").click(function(){
               $("#feedback").html("<h2 style='color:red'> It's Leonado Da Vinci's feature. </h2>");
-              $("#2").css("display","none");
+              $("#image2").css("display","none");
        });
  
 
        $("#option2, #option4").click(function(){
-              $("#feedback").html("<h2 style='color:red'> Thick painting is Titian's feature and sculpture technique is Michelangelo' favourite. </h2>");
-              $("#2").css("display","none");
+              $("#feedback").html("<h2 style='color:red'> Thick painting is Titian's feature and sculpture technique is Michelangelo's favourite. </h2>");
+              $("#image2").css("display","none");
        });
  
        $("#option3").click(function(){
               $("#feedback").html("<h2 style='color:green'> Correct! It's caravaggio's feature.  </h2>");
-              $("#2").css("display","inline");
+              $("#image2").css("display","inline");
        });
   
    });
@@ -41,7 +41,8 @@
      <h2 id="option4" class="choices"> Sculpture technique. </h2>
  
      <div id="feedback"></div>
-     <img id="2" src="img/2.jpg"/>
+     <img src="img/2.jpg" width="431" height="410" id="2"/>
+	
 </div>
 
 </body>

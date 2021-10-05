@@ -8,7 +8,7 @@ body {
 
 a {
 	padding: 15px;
-margin: 3px;
+    margin: 3px;
 	font-size: 125%;
 	background-color:#ffe4e1; 
 	color:#000000; 
@@ -26,14 +26,15 @@ a:hover {
    text-align: center;
 }
 
- #1 {
+ #image1 {
    border: black 5px solid;
 }
  
- #2 {
+ #image2 {
    display: none;
    border: black 5px solid;
 }
+
 .choices {
      cursor: pointer;
 }
