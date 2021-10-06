@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>question2</title>
+<link href="css/koala.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+ 	$(function(){
+ 
+       $("#option1").click(function(){
+              $("#feedback").html("<h2 style='color:red'> It's Leonado Da Vinci's feature. </h2>");
+              $("#image2").css("display","none");
+       });
+ 
+       $("#option2").click(function(){
+              $("#feedback").html("<h2 style='color:red'> Thick painting is Titian's feature. </h2>");
+              $("#image2").css("display","none");
+       });
+ 
+	   $("#option4").click(function(){
+              $("#feedback").html("<h2 style='color:red'>Sculpture technique is Michelangelo's favourite. </h2>");
+              $("#image2").css("display","none");
+       });
+		
+       $("#option3").click(function(){
+              $("#feedback").html("<h2 style='color:green'> Correct! It's caravaggio's feature. </h2>");
+              $("#image2").css("display","inline");
+       });
+  
+   });
+ </script>
+
+</head>
+
+<body>
+<div id="wrapper">
+     <h1>What is the feature of the Caravaggio's work?</h1>
+     <h3>Click on one of the following choices</h3>
+ 
+     <h2 id="option1" class="choices"> Dynamic Composition. </h2>
+     <h2 id="option2" class="choices"> Thick painting. </h2>
+     <h2 id="option3" class="choices"> Cellar lighting. </h2>
+     <h2 id="option4" class="choices"> Sculpture technique. </h2>
+ 
+     <div id="feedback"></div>
+     <img src="img/2.jpg" width="431" height="410" id="image2"/>
+	
+</div>
+
+</body>
+</html>
