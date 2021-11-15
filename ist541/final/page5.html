@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/final.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+<script>
+	$(function(){
+	
+	$("#p4").mouseenter( function(){
+		$("#p4").css("display","none");
+		$("#pp4").css("display","inline");
+		$("#answer").html("");
+		});
+ 
+		$("#pp4").mouseleave( function(){
+		$("#p4").css("display","inline");
+		$("#pp4").css("display","none");
+		$("#answer").html("");
+		});
+
+	$("#p5").mouseenter( function(){
+		$("#p5").css("display","none");
+		$("#pp5").css("display","inline");
+		$("#answer").html("");
+		});
+ 
+		$("#pp5").mouseleave( function(){
+		$("#p5").css("display","inline");
+		$("#pp5").css("display","none");
+		$("#answer").html("");
+		});
+	
+	});
+
+	</script>
+	
+<title>renaissance</title>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a class="active" href="../final/index.html"> Home</a>
+	<a href="../final/page2.html"> Renaissance</a>
+	<a href="../final/page3.html"> Leonado Da Vinci</a>
+	<a href="../final/page4.html"> Raphael</a>
+	<a href="../final/page5.html"> Michelangelo</a>
+	<a href="../final/page6.html"> Resources</a>
+</div>
+
+<br>
+
+<div id="wrapper">
+
+<div class="body">
+	<h2>Introduction of Michelangelo</h2>
+	<center><p>Below is the video to learn more about Michelangelo.</p></center>
+	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ihlqGCfD5_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>	
+	<center><p>Hover over the pictures to learn more in detail:</p></center>	
+	<center><img id="p4"   src="img/p4.jpg" width="413" height="337"/></center>
+ 	<center><img id="pp4" src="img/pp4.jpg" width="413" height="337"/></center>
+	
+	<center><img id="p5"   src="img/p5.jpg" width="413" height="337"/></center>
+ 	<center><img id="pp5" src="img/pp5.jpg"  width="413" height="337"/></center>
+
+	<br>
+</div><!--body-->
+
+  <br><br>
+  <center><p>Created by Hua Xu</p></center>
+
+</div><!--wrapper-->
+</body>
+</html>
