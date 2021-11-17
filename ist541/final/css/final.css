@@ -7,28 +7,13 @@
   overflow: hidden;
 }
 
-.topnav a {
-  float: center;
-  color: #070706;
-  text-align: center;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-  font-size: 27px; 
-}
-
-.topnav a:hover {
-  background-color: #FFFFFF;
-  color: #CFCFCF;
-}
-
 div {
 	padding:5px;
 	border-radius:5px;
 }
 
 #wrapper {
-	width: 850px;
+	width: 1500px;
 	margin:0 auto;   
 }
 
@@ -36,7 +21,7 @@ body {
 	text-align: justify;
 	background-color:#FAF0F2;  
 	color: #000000;         
-	font-size: 18px;
+	font-size: 15px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 
 }
@@ -51,22 +36,13 @@ h1 {
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 
-h2 { 
-	padding: 9px;
-	text-align:center;     /* centers h2 content */
-	background: #27213C;
-	color: white;       /* Text color for the h2 content*/
-	border-radius:5px;
-	font-size: 25px;
-	letter-spacing: 1px;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-}
-
 .body {
     background-color: #FFFFFF;
-    padding: 9px;
+    padding: 5px;
     justify-content: center;
-    font-size: 20px;
+    font-size: 16px;
+    text-align: left;
+    color: #040404;
 }
 
 .stepTitle {
@@ -75,7 +51,7 @@ h2 {
 	color: white;
 	font-size:20px;
 	font-weight: bold;
-	background-color:#27213C;
+	background-color:#FFFFFF;
 	border-radius:5px;
  }
 
@@ -109,19 +85,19 @@ h2 {
 }
 
 #p4 {
-   border: black 5px solid;
+   border: black 2px solid;
 }
 
 #pp4 {
-   border: black 5px solid;
+   border: black 2px solid;
 }
  
 #p5 {
-   border: black 5px solid;
+   border: black 2px solid;
 }
 
 #pp5 {
-   border: black 5px solid;
+   border: black 2px solid;
 }
 .choices {
 cursor: pointer;
