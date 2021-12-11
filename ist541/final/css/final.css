@@ -21,7 +21,7 @@ body {
 	text-align: justify;
 	background-color:#FAF0F2;  
 	color: #000000;         
-	font-size: 15px;
+	font-size: 18px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 
 }
@@ -40,7 +40,7 @@ h1 {
     background-color: #FFFFFF;
     padding: 5px;
     justify-content: center;
-    font-size: 16px;
+    font-size: 24px;
     text-align: left;
     color: #040404;
 }
